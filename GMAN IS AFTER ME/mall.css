@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 4rem;
+    display: none;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 4rem;
+    display: none;
+}
+
+.dontcomebackbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    flex-direction: column;
+}
+
+.dontcomebacktxt{
+    display: block;
+}
+
+.passwordbox{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .dontcomebackbox{
+        display: none;
+    }
+
+    .hiddenmsgBox{
+        display: block;
+    }
+
+    .hiddenmsg{
+        font-size: 2rem;
+        display: block;
+    }
+}
